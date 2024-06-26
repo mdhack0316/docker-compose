@@ -1,4 +1,4 @@
-FROM centos
+FROM oraclelinux:8.3
 MAINTAINER ashutoshh
 RUN dnf install httpd -y
 WORKDIR /var/www/html/
